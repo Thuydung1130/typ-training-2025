@@ -1,5 +1,6 @@
 
 import './App.css'
+import Counter from './components/counter'
 import RandomGift from './components/RandomGift'
 import UseEffect from './components/UseEffect'
 import UseEffect2 from './components/UseEffect2'
@@ -18,6 +19,7 @@ function App() {
       <UseRef/>
       <UseRef2/>
       <RandomGift/>
+      <Counter/>
     </>
   )
 }
